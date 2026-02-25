@@ -69,21 +69,21 @@ CLIPS (C Language Integrated Production System) adalah tool yang dikembangkan ol
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                   USER INTERFACE                     │
-│          (Dialog berbasis teks di terminal)           │
+│                   USER INTERFACE                    │
+│          (Dialog berbasis teks di terminal)         │
 ├─────────────────────────────────────────────────────┤
-│                 INFERENCE ENGINE                     │
-│           (CLIPS Forward Chaining Engine)            │
+│                 INFERENCE ENGINE                    │
+│           (CLIPS Forward Chaining Engine)           │
 │                                                     │
-│  ┌─────────────┐    ┌────────────────────────────┐  │
-│  │   Working    │    │      Knowledge Base        │  │
-│  │   Memory     │◄──►│  ┌─────────┐ ┌─────────┐  │  │
-│  │             │    │  │  Facts  │ │  Rules  │  │  │
-│  │ - profil-   │    │  │ (3 tmpl)│ │(23 rule)│  │  │
-│  │   pengguna  │    │  └─────────┘ └─────────┘  │  │
-│  │ - fase      │    │                            │  │
-│  │ - rekomendasi│   │                            │  │
-│  └─────────────┘    └────────────────────────────┘  │
+│  ┌─────────────┐     ┌────────────────────────────┐ │
+│  │   Working   │     │      Knowledge Base        │ │
+│  │   Memory    │◄──► │  ┌─────────┐ ┌─────────┐   │ │
+│  │             │     │  │  Facts  │ │  Rules  │   │ │
+│  │- profil-    │     │  │ (3 tmpl)│ │(23 rule)│   │ │
+│  │  pengguna   │     │  └─────────┘ └─────────┘   │ │
+│  │- fase       │     │                            │ │
+│  │- rekomendasi│     │                            │ │
+│  └─────────────┘     └────────────────────────────┘ │
 └─────────────────────────────────────────────────────┘
 ```
 
