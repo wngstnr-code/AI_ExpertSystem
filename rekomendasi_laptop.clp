@@ -92,7 +92,7 @@
    (printout t "  Apa kebutuhan utama Anda?                              " crlf)
    (printout t "    1. Pekerjaan Kantoran / Mahasiswa  (ketik: kantor)   " crlf)
    (printout t "    2. Desain Grafis / Video Editing   (ketik: desain)   " crlf)
-   (printout t "    3. Bermain Game Berat              (ketik: gaming)   " crlf)
+   (printout t "    3. Bermain Game Berat / AAA        (ketik: gaming)   " crlf)
    (printout t "---------------------------------------------------------" crlf)
    (printout t "  Pilihan Anda: ")
    (bind ?input (read))
